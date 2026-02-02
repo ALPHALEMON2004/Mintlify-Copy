@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+     padding-right: 1.5rem;
+    z-index: 50;
+    margin-left: auto; 
+      margin-right: auto;
+
+}
+
+.hero{
+   background-image: url("./hero/mintlyfi-bg-hero.svg");
+   
+
+   background-size: 129% auto;     
+   background-position: left -215.3px  top -105px ;
+   min-height: 100vh;
+  
+   
+  position: relative;
+}
+
+.Sales{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+/* .logo-icon{
+    width: 10px;
+    height: 10px;
+} */
+ #links{
+    color: aliceblue;
+    text-decoration: none;
+     
+ }
