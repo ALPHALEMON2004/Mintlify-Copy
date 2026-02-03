@@ -1,0 +1,187 @@
+/* RESET */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:system-ui,-apple-system,sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:#fff;
+  line-height:1.6;
+}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+  position:sticky;
+  top:0;
+  background:#0f172a;
+}
+
+nav a{
+  margin:0 15px;
+  color:#cbd5e1;
+  text-decoration:none;
+}
+
+nav a:hover{ color:#fff; }
+
+/* BUTTONS */
+.btn{
+  padding:10px 20px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.primary{
+  background:#6366f1;
+  color:white;
+  border:none;
+}
+
+.outline{
+  background:transparent;
+  border:1px solid #6366f1;
+  color:#6366f1;
+}
+
+.big{
+  font-size:18px;
+  padding:14px 30px;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:130px 20px;
+  background:linear-gradient(#0f172a,#111827);
+}
+
+.hero h1{
+  font-size:56px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  color:#94a3b8;
+  margin-bottom:30px;
+}
+
+/* LOGOS */
+.logos{
+  text-align:center;
+  padding:60px 20px;
+  color:#94a3b8;
+}
+
+.logo-row span{
+  margin:0 25px;
+}
+
+/* FEATURES */
+.features{
+  padding:100px 60px;
+  text-align:center;
+}
+
+.grid{
+  margin-top:50px;
+  display:grid;
+  gap:25px;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+}
+
+.card{
+  background:#1e293b;
+  padding:30px;
+  border-radius:14px;
+}
+
+/* PREVIEW MOCKUP */
+.preview{
+  display:flex;
+  justify-content:center;
+  padding:120px 20px;
+}
+
+.mockup{
+  width:900px;
+  height:420px;
+  background:#1e293b;
+  border-radius:20px;
+  display:flex;
+  overflow:hidden;
+}
+
+.sidebar{
+  width:220px;
+  background:#111827;
+}
+
+.content{
+  flex:1;
+}
+
+/* STEPS */
+.steps{
+  padding:100px 20px;
+  text-align:center;
+}
+
+.step-grid{
+  margin-top:40px;
+  display:flex;
+  gap:40px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+/* TESTIMONIALS */
+.testimonials{
+  padding:100px 60px;
+  text-align:center;
+}
+
+/* PRICING */
+.pricing{
+  padding:100px 20px;
+  text-align:center;
+}
+
+.pricing-grid{
+  margin-top:40px;
+  display:flex;
+  gap:30px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.price-card{
+  background:#1e293b;
+  padding:40px;
+  border-radius:16px;
+  width:260px;
+}
+
+.highlight{
+  border:2px solid #6366f1;
+}
+
+/* CTA */
+.cta{
+  text-align:center;
+  padding:120px 20px;
+  background:#111827;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  color:#94a3b8;
+}
