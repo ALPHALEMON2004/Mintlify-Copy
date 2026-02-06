@@ -4,30 +4,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+   
 
 }
 
 .nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    top: -30px;
+   
+  
     align-items: center;
     width: 100%;
     z-index: 50;
     margin-left: auto; 
     margin-right: auto;
-    padding-left: 20px;
+    padding-left: 80px;
     padding-right: 45px;
     padding-bottom: 30px;
     position: sticky;
-    top: 0.75rem;
+    margin-top: -35px;
    
 }
 
 .hero{
+    background-color: #000000;
    background-image: url("./hero/mintlyfi-bg-hero.svg");
    background-size: 129% auto;     
    background-position: left -215.3px  top -105px ;
+   background-repeat: no-repeat;
    min-height: 100vh;
         position: relative;
         padding-top: 0.75rem;
@@ -37,6 +43,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+    padding-left: 80px;
 
     
     
@@ -51,7 +58,7 @@
 .salebox{
     border-radius: 20px;
     padding: 0.6rem 1.4rem;
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,9 +89,575 @@
  .navlinks{
     display: flex;
     gap: 30px;
+    font-size: 15px;
+    padding-left: 100px;
  }
  
  .logo{
     display: flex;
     flex-direction: row;
+}
+
+/* Hero section  */
+.herolink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: -20px;
+    margin-left: -15px;
+    
+    
+
+
+}
+.herolinkdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.07);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 40px;
+    gap: 10px;
+}
+.herolink span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#4aa655;
+    padding: 3px;
+    border-radius: 40px;
+    width: 46px;
+    height: 24px;
+    font-size: small;
+    text-decoration: none;
+}
+.mainhero{
+    padding-top: 50px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainhero h1{
+    
+ font-size: 56px;
+ letter-spacing: -3px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: -5px;
+}
+.mainhero p{
+    padding-top:30px;
+    font-size: larger;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.mainheroip{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.147);
+   padding: 5px 5px 5px 30px;
+   font-size: 40px;
+   border-radius: 40px;
+  
+
+}
+.mainheroip input{
+    font-family: "Inter", sans-serif;
+    
+    background-color:transparent;
+    text-decoration: none;
+    height: 30px;
+    
+    border: none;
+    width: 270px;
+    color: #fff;
+    font-size: 16px;
+}
+.mainheroip input:focus {
+    outline: none;
+    box-shadow: none;
+}
+.mainheroip input::placeholder{
+    color: #c4c4c4;
+     font-family: "Inter", sans-serif;
+     font-weight: 600;
+     font-size: 17px;
+}
+
+.mainheroip button{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-display: fallback;
+    font-size: 16px;
+    width: 100px;
+    height: 35px;
+    border-radius: 40px;
+    border: none;
+}
+.heroimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    
+    
+    
+    
+}
+.heroimage img{
+    width: 85%;
+    border-radius: 30px;
+    border: 3px solid rgba(118, 118, 118, 0.316);
+    
+}
+.container{
+    background-color: #000000;
+    width: 100%;
+    margin-top: -140px;
+    padding-bottom: 80px;
+    position: relative;
+    /* z-index: 5; */
+    box-shadow: 0px -40px 30px rgba(0, 0, 0, 0.729);
+    height: 300px;
+    
+}
+.logogrid{
+   
+
+    width: min(100%, 1100px);
+    margin: 80px auto 120px;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    row-gap: 0px;
+}
+
+
+.logogrid div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logogrid img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+    
+}
+
+.anthropic img{
+    width: 150px;
+    max-width: 150px;
+}
+.x img{
+    width: 45px;
+    height: 45px;
+
+}
+
+.Integrate{
+    padding-top: 100px;
+    background-color: #000000;
+    color: #fff;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    gap: 15px;
+
+
+}
+.Integrate h1{
+   padding-top: 60px;
+   font-size: 39px;
+   letter-spacing: -2px;
+}
+.Integrate p{
+    color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    
+}
+
+.LLMcards{
+    background-color: #000000;
+    color: #fff;
+    display: grid;
+    padding-top: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+     font-family: "Inter", sans-serif;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:start;
+    text-align: start;
+    gap: 15px;
+    padding: 24px;
+    border: 1px solid #181818;
+    border-radius: 40px;
+}
+.card span{
+    color:#39fe9f; 
+    font-size: 12px;
+    letter-spacing: 0px;
+   
+   
+}
+.card h1{
+    font-size: 23px;
+    
+   
+}
+.card p{
+    
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.card p span{
+    color: #a3a3a3;
+    font-size: 17px;
+    
+}
+
+.LLMcards .card:nth-child(3){
+    grid-column: 1 / -1;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+
+.enterpriselayout{
+    display: flex;
+    flex-direction: column;
+    background-color: #161313;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+
+
+}
+.firstcard{
+    padding-top: 100px;
+    padding-left: 120px;
+}
+.a1{
+    font-size:12px;
+    letter-spacing: 0.5px;
+    color: #4affa7;
+}
+.firstcard h1{
+    padding-top: 20px;
+    letter-spacing: -1px;
+   display: flex;
+   flex-direction: column;
+   font-size: 38px;
+}
+.firstcard p{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    color:#a3a3a3;
+}
+.firstcard p a{
+    display: flex;
+    margin-right: 110px;
+   
+    color: #000000;
+    background-color: #fff;
+    height: 40px;
+    width: 220px;
+    text-decoration: none;
+
+    padding-left: 25px;
+    padding-top: 8px;
+    border-radius: 40px;
+    font-weight: 500;
+    
+
+}
+
+.secondcard{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left:90px ;
+    padding-right: 100px;
+    
+    
+}
+.a{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   gap: 20px;
+}
+.a h1{
+    font-size: 20px;
+}
+.a p{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #a3a3a3;
+}
+
+.thirdcard{
+    padding-left: 120px;
+    
+}
+.thirdcard img{
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+.customer{
+    background-color: #000000;
+    margin-top: 120px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+.customer span{
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #39fe9f;
+}
+.customer h1{
+    font-size: 40px;
+    word-spacing: -2px;
+    letter-spacing: -2px;
+}
+
+
+.story{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding-left: 20px;
+    gap: 20px;
+    padding-bottom: 250px;
+}
+.story img{
+    border-radius: 15px;
+}
+.story a{
+    text-decoration: none;
+    color: #a3a3a3;
+    font-family: "Inter", sans-serif;
+
+}
+
+.storycard{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+    color: #a3a3a3;
+    
+}
+
+.demo{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+
+}
+.demo h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    letter-spacing: -1px;
+}
+.demo div{
+    padding-top: 40px;
+   display: flex;
+   gap: 10px;
+}
+
+#demo1{
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    width: 180px;
+    display: flex;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#demo2{
+    color: white;
+    border-radius: 30px ;
+    text-decoration: none;
+    width: 130px;
+    height: 35px;
+    border: 0.5px solid #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pricing{
+    margin-top: 50px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 200px;
+
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    gap: 10px;
+    
+}
+.price h1{
+   font-size: 20px;
+}
+.price a{
+    padding-top: 30px;
+    color: #39fe9f;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+
+
+}
+footer{
+    background-color: #090909;
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+
+}
+.linkss{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.link{
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+.footerflex{
+    padding-left:86px;
+    padding-right: 50px;
+color: #626161;
+display: flex;
+flex-direction: row;
+align-items: top;
+justify-content: space-around;
+padding-bottom: 50px;
+
+
+}
+.FF{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: start;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+}
+.FF a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+
+}
+.WTN{
+ color: #fff;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ font-family: "Inter", sans-serif;
+ font-size: 15px;
+ padding-left: 140px;
+}
+
+.last{
+    color: #626161;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    padding-top: 50px;
+    padding-left: 46%;
+    padding-bottom: 50px;
 }
